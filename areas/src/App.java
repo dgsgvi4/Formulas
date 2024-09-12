@@ -3,18 +3,17 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner (System.in);
-        System.out.println("Ingresa el valor de la base: ");
+        System.out.println("Ingresa el valor de la base:");
         double base = scanner .nextDouble ();
 
-        System.out.println("Ingresa el valor de la base menor: ");
+        System.out.println("Ingresa el valor de la base menor:");
         double baseMenor = scanner .nextDouble ();
 
-        System.out.println("Ingresa el valor de la altura: ");
+        System.out.println("Ingresa el valor de la altura:");
         double altura = scanner .nextDouble ();
 
-        System.out.println("Ingresa el valor de la radio: ");
+        System.out.println("Ingresa el valor de la radio:");
         double radio = scanner .nextDouble ();
-
 
         double areaTrian =  (base * altura) / 2;
         double areaRect = (base * altura);
